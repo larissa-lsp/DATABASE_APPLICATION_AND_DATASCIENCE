@@ -35,9 +35,9 @@ jedi_copia = jedi.copy()
 jedi_copia.append("Rey")
 print(jedi_copia) # ['Yoda', 'Luke', 'Obi-Wan', 'Anakin', 'Rey']
 
-primeiros_jedis = jedi[:3] # acessa os 3 primeiros jedis
-ultimos_jedis = jedi[-3:] # acessa os 3 últimos jedis
-jedis_pares = jedi[::2] # acessa os jedis em índices pares
+primeiros_jedis = jedi[:3] # acessa os 3 primeiros jedis.csv
+ultimos_jedis = jedi[-3:] # acessa os 3 últimos jedis.csv
+jedis_pares = jedi[::2] # acessa os jedis.csv em índices pares
 print(primeiros_jedis) # ['Yoda', 'Luke', 'Obi-Wan']
 print(ultimos_jedis) # ['Mace Windu', 'Qui-Gon Jinn', 'Kit Fisto']
 print(jedis_pares) # ['Yoda', 'Obi-Wan', 'Mace Windu', 'Kit Fisto']
