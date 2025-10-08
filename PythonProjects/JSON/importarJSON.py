@@ -15,7 +15,7 @@ contatos = {
 final = json.dumps(contatos, indent=4)
 
 #criando um arquivo
-arquivo = open("c:\\Users\\laris\\Desktop\\Área de trabalho faculdade\\Fiap-DataScience\\DATABASE APPLICATION & DATASCIENCE\\PythonProjects\\JSON\\agenda.json", "w")
+arquivo = open("agenda.json","w")
 
 #escrevendo o JSON dentro do arquivo
 arquivo.write(final)

@@ -3,7 +3,7 @@ import json
 conteudo = "Estou testando criar um arquivo de texto. Então, estou... textando?"
 
 #usando a função open para criar um objeto do tipo arquivo
-arquivo = open("c:\\Users\\laris\\Desktop\\Área de trabalho faculdade\\Fiap-DataScience\\DATABASE APPLICATION & DATASCIENCE\\PythonProjects\\JSON\\agenda.json")
+arquivo = open("agenda.json")
 
 #colocando o conteúdo do arquivo em uma variável do tipo string
 conteudo_do_arquivo = arquivo.read()
